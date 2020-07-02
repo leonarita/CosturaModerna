@@ -58,6 +58,10 @@ body {
     text-decoration: none;
 }
 
+.page-home .main-container .menu-left ul a:hover {
+    color: rgb(156, 155, 155);
+}
+
 .page-home .main-container .menu-left ul a li {
     list-style: none;
     background: #FFF;
@@ -68,6 +72,8 @@ body {
     border: black solid;
 
     padding: 5px 10px;
+
+    padding-left: 32px;
 }
 
 .page-home .content footer {
