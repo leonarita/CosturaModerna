@@ -39,7 +39,7 @@ body {
     grid-template-columns: 2fr 5fr;
 }
 
-.page-home .content .main-container .menu-left {
+.page-home .content .main-container .menu-left, .page-home .content .main-container main {
     margin: 20px 60px 0 0;
     padding-left: 60PX;
 }
@@ -59,12 +59,12 @@ body {
 }
 
 .page-home .main-container .menu-left ul a:hover {
-    color: rgb(156, 155, 155);
+    color: rgb(82, 57, 57);
 }
 
 .page-home .main-container .menu-left ul a li {
     list-style: none;
-    background: #FFF;
+    background: rgb(167, 158, 158);
 
     border-radius: 10px;
     margin-top: 6px;
@@ -76,8 +76,23 @@ body {
     padding-left: 32px;
 }
 
+.page-home .content .main-container main h1 {
+    font-size: 28px;
+    font-family: Roboto sans-serif;
+}
+
+.page-home .content .main-container main p {
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+}
+
+.page-home .content .main-container main img {
+    height: 200px;
+    width: 200px;
+}
+
 .page-home .content footer {
-    margin: 80px;
+    margin: 40px;
     margin-left: 200px;
     margin-right: 200px;
     
