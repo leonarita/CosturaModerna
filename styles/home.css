@@ -36,7 +36,7 @@ body {
 
 .page-home .content .main-container {
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 3fr 7fr;
 }
 
 .page-home .content .main-container .menu-left, .page-home .content .main-container main {
@@ -46,6 +46,7 @@ body {
 
 .page-home .content .main-container .menu-left ul {
     margin: 10px;
+    margin-left: 50px;
     border: black solid;
     padding: 6px;
     background: #7159c1;
