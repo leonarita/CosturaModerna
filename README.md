@@ -10,6 +10,6 @@ Minha avó é costureira ativa atualmente (julho/2020), e vendo o serviço dela,
 
 <br>
 
-# Objetivo
+## Objetivo
 
 Esse projeto visa a divulgação de serviços de costura para toda a internet.
