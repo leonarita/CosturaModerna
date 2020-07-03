@@ -5,6 +5,8 @@ Um projeto utilizando `HTML`, `CSS` e `Javascript`.
 <br>
 
 O site está hospedado no próprio GitHubt, [basta clicar aqui](https://leonarita.github.io/CosturaModerna/)!
+<br>
+[Projeto está em desenvolvimento...]
 
 <br>
 
