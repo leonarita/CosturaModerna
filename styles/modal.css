@@ -1,0 +1,67 @@
+#modal {
+    background-color: #0E0A14EF;
+
+    /* Cobrir a página toda */
+    height: 100vh;
+    width: 100vw;
+
+    /* Levando a página para o início */
+    position: fixed;
+    top: 0;
+
+    /* Ajustar ao centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ns;
+}
+
+#modal.hide {
+    display: none;
+}
+
+#modal .content {
+    color: white;
+
+    width: 420px;
+}
+
+#modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+#modal .header a {
+    background-image: url("../img/x.svg");
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+    font-size: 0.01px;
+}
+
+#modal .header h1 {
+    color: white;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal .email, #modal .telefone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#modal div label {
+    font-size: 20px;
+    line-height: 16px;
+    display: block;
+
+    margin-bottom: 8px;
+}
+
+

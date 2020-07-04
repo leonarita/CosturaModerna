@@ -11,6 +11,7 @@
         
         <link rel="stylesheet" href="./styles/home.css">
         <link rel="stylesheet" href="./styles/depositions.css">
+        <link rel="stylesheet" href="./styles/modal.css">
     </head>
 
     <body>
@@ -54,7 +55,7 @@
                                 <li> Depoimentos </li>
                             </a>
 
-                            <a href="">
+                            <a class="modal" href="#">
                                 <li> Contato </li>
                             </a>
 
@@ -72,12 +73,12 @@
 
                                 <div class="campo">
                                     <p> Nome </p>
-                                    <input name="nome" type="text" placeholder="Informe seu nome">
+                                    <input name="nome" type="text" placeholder="Informe seu nome" required>
                                 </div>
 
                                 <div class="campo">
                                     <p> Depoimento </p>
-                                    <textarea name="depoimento" id="" cols="50" rows="8" placeholder="Informe seu depoimento"></textarea>
+                                    <textarea name="depoimento" id="" cols="50" rows="8" placeholder="Informe seu depoimento" required></textarea>
                                 </div>
 
                                 <button type="submit"> Enviar </button>
@@ -148,6 +149,33 @@
             </div>
 
         </div>
+
+        <div id="modal" class="hide">
+
+            <div class="content">
+
+                <div class="header">
+                    <h1> Contatos </h1>
+                    <a href="#"> Fechar </a>
+                </div>
+
+                <div class="email">
+                    <label for=""> Email </label>
+                    <label for=""> costureira@gmail.com </label>
+                </div>
+
+                <br>
+
+                <div class="telefone">
+                    <label for=""> Telefone </label>
+                    <label for=""> (11) 95555-4444 </label>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="./scripts/index.js"></script>
         
     </body>
 
