@@ -1,0 +1,27 @@
+.page-home .content .main-container main {
+    border-right: 60px;
+}
+
+.page-home .content .main-container main h1 {
+    font-size: 28px;
+    font-family: Roboto sans-serif;
+}
+
+.page-home .content .main-container main p {
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+    padding-bottom: 20px;
+}
+
+.page-home .content .main-container main ul li {
+    list-style: none;
+
+}
+
+.page-home .content .main-container main ul li h3 {
+    font-size: 18px;
+}
+
+.page-home .content .main-container main ul li p {
+    font-size: 16px;
+}
