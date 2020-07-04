@@ -1,0 +1,15 @@
+.page-home .content .main-container main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 160px;
+}
+
+.page-home .content .main-container main .texto h1 {
+    font-size: 28px;
+    font-family: Roboto sans-serif;
+}
+
+.page-home .content .main-container main .texto p {
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+}
