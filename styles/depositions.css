@@ -1,6 +1,6 @@
 .page-home .content .main-container main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .page-home .content .main-container main h1 {
@@ -9,29 +9,77 @@
     margin-block-end: 0;
 }
 
-.page-home .content .main-container main form .campo p {
+.page-home .content .main-container main .formulario {
+    align-items: flex-start;
+}
+
+.page-home .content .main-container main .formulario form .campo p {
     font-size: 18px;
     font-family: Roboto sans-serif;
 }
 
-.page-home .content .main-container main form .campo input {
+.page-home .content .main-container main .formulario form .campo input {
     font-size: 16px;
     font-family: Roboto sans-serif;
 }
 
-.page-home .content .main-container main form .campo textarea {
+.page-home .content .main-container main .formulario form .campo textarea {
     font-size: 16px;
     font-family: Roboto sans-serif;
 }
 
-.page-home .content .main-container main form button {
+.page-home .content .main-container main .formulario form button {
     background-color: #7159c1;
     color: white;
+    margin-top: 10px;
 
     height: 40px;
     width: 100px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
+    cursor: pointer;
 }
 
+.page-home .content .main-container main .depoimentos {
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.page-home .content .main-container main .depoimentos ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: #FD1;
+
+    border: 1.2px black solid;
+    border-radius: 12px;
+}
+
+.page-home .content .main-container main .depoimentos ul li h1 {
+    font-size: 18px;
+    margin-bottom: 16px;
+
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.page-home .content .main-container main .depoimentos ul li p {
+    font-size: 16px;
+    background: rgb(167, 158, 158);
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    padding: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 12px;
+    
+    border: 0.1px black solid;
+}
