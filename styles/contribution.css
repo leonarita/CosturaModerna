@@ -1,0 +1,14 @@
+.page-home .content .main-container main h1 {
+    font-size: 28px;
+    font-family: Roboto sans-serif;
+}
+
+.page-home .content .main-container main p {
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+}
+
+.page-home .content .main-container main img {
+    margin-left: 300px;
+    margin-top: 20px;
+}
